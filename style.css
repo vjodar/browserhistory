@@ -12,3 +12,19 @@ h1, h2 {
 img {
   float: left;
 }
+
+.navbar {
+  list-style-type: none;
+  column-count: 4;
+  column-gap: 50px;
+}
+
+.sections {
+  column-count: 3;
+  column-width: 300px;
+  column-fill: auto;
+}
+
+.section {
+  padding: 1em;
+}
