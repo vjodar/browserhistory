@@ -1,30 +1,7 @@
 body {
-  font-family: "Open Sans", sans-serif;
-  color: DarkBlue;
-  background-color: Ivory;
-  margin: 10px 50px 10px 50px;
+  margin: 50px;
 }
 
 h1, h2 {
-  font-family: Oswald, sans-serif;
-}
-
-img {
-  float: left;
-}
-
-.navbar {
-  list-style-type: none;
-  column-count: 4;
-  column-gap: 50px;
-}
-
-.sections {
-  column-count: 3;
-  column-width: 300px;
-  column-fill: auto;
-}
-
-.section {
-  padding: 0.2em;
+  color: #3d82c6
 }

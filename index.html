@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Browser History</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="ui container">
 <h1>A history of browsers</h1>
 
-<h2>Table of contents</h2>
-  <ul class="navbar">
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#internetExplorer">Internet Explorer</a></li>
-    <li><a href="#fireFox">FireFox</a></li>
-    <li><a href="#chrome">Chrome</a></li>
+  <ul class="ui fixed top inverted four item menu">
+    <li class="item"><a href="#introduction">Introduction</a></li>
+    <li class="item"><a href="#internetExplorer">Internet Explorer</a></li>
+    <li class="item"><a href="#fireFox">FireFox</a></li>
+    <li class="item"><a href="#chrome">Chrome</a></li>
   </ul>
 
 <h2 id="introduction">Introduction</h2>
@@ -24,10 +25,10 @@
   A web browser is not the same thing as a search engine, though the two are often confused. For a user, a search engine is just a website, such as Google Search, Bing, or DuckDuckGo, that stores searchable data about other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.
 </p>
 
-<div class="sections">
+<div class="ui equal width grid">
 
-  <div class="section"><h2 id="internetExplorer">A brief history of IE</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Internet_Explorer_7_Logo.png" style="width: 100px;" alt="">
+  <div class="ui column"><h2 id="internetExplorer">A brief history of IE</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Internet_Explorer_7_Logo.png" style="width: 100px;" alt="" class="ui floated left image">
     <p>
       Internet Explorer (formerly <a href="https://www.microsoft.com/en-us">Microsoft</a> Internet Explorer and Windows
       Internet Explorer, commonly abbreviated IE or MSIE) is a series of graphical web browsers developed by Microsoft
@@ -37,9 +38,9 @@
       versions of Windows. The browser is discontinued, but still maintained.
     </p></div>
 
-  <div class="section"><h2 id="fireFox">A brief history of FireFox</h2>
+  <div class="ui column"><h2 id="fireFox">A brief history of FireFox</h2>
     <img src="http://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png" style="width: 100px;"
-         alt="">
+         alt="" class="ui floated left image">
     <p>
       Mozilla Firefox, or simply Firefox, is a free and <a href="https://opensource.org/">open-source</a> web browser
       developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox is officially available for
@@ -50,9 +51,9 @@
       and a more intuitive user interface. An additional version, Firefox for iOS, was released on November 12, 2015.
     </p></div>
 
-  <div class="section"><h2 id="chrome">A brief history of Chrome</h2>
+  <div class="ui column"><h2 id="chrome">A brief history of Chrome</h2>
     <img src="http://upload.wikimedia.org/wikipedia/commons/e/e2/Google_Chrome_icon_%282011%29.svg"
-         style="width: 100px;" alt="">
+         style="width: 100px;" alt="" class="ui floated left image">
     <p>
       Google Chrome is a cross-platform web browser developed by <a href="https://www.google.com/">Google</a>. It was
       first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android. The browser
